@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://10.7.4.212:1433;database=CustomDB
+    username: sa
+    password: Str0ngPa$$w0rd
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+logging:
+  level:
+    org.springframework.security: debug
+
